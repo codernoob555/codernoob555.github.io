@@ -1,0 +1,150 @@
+/* tablet and mb */
+@media (max-width: 992px) {
+    #logo {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    /* body */ 
+    .products h2 {
+        font-size: 16px;
+    }
+
+    .product-item h3 {
+        font-size: 12px;
+        font-weight: none;
+    }
+
+    .product-item p {
+        font-size: 12px;
+    }
+    
+
+    /* footer */
+    #footer-t h3 {
+        font-size: 20px;
+    }
+
+    #footer-t a {
+        font-size: 16px;
+    }
+
+    #footer-t p {
+        font-size: 16px;
+    }
+
+    #footer-b p {
+        font-size: 14px;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    /* header */
+    #logo {
+        height: 60px;
+    }
+
+    #logo img {
+        margin-top: 10px;
+        width: 140px;
+        height: 40px;
+    }
+
+    #logo .ti-search,
+    #logo .ti-menu {
+        font-size: 18px;
+        line-height: 60px;
+        color: #fff;
+    }
+
+    #logo .ti-menu {
+        float: left;
+        margin-left: 8px;
+    }
+
+    #logo .ti-search {
+        float: right;
+        margin-right: 8px;
+    }
+    
+    #logo .ti-search:hover,
+    #logo .ti-menu:hover {
+        color: #ffc107;
+        cursor: pointer;
+    }
+
+    /* end header */
+
+
+    /* body */
+    #body {
+        margin-top: 20px;
+    }
+
+    /* pages */
+    .pages {
+        margin-left: 10%;
+    }
+
+    .page-item {
+        font-size: 9px;
+        width: 30px;
+        height: 10px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    #logo .ti-search,
+    #logo .ti-menu {
+        font-size: 30px;
+        line-height: 90px;
+        color: #fff;
+    }
+
+    #logo .ti-menu {
+        float: left;
+        margin-left: 8px;
+    }
+
+    #logo .ti-search {
+        float: right;
+        margin-right: 8px;
+    }
+    
+    #logo .ti-search:hover,
+    #logo .ti-menu:hover {
+        color: #ffc107;
+        cursor: pointer;
+    }
+
+    /* pages */
+    .pages {
+        margin-left: 28%;
+    }
+
+    .page-item {
+        font-size: 9px;
+        width: 30px;
+        height: 10px;
+    }
+}
+
+/* pc */
+@media (min-width: 992px) {
+    #logo .ti-menu {
+        display: none;
+    }
+
+    #logo .ti-search {
+        display: none;
+    }
+}

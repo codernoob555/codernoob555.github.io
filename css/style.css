@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #000;
+    display: block;
+    z-index: 1;
+}
+
+#logo, #menu, #search {
+    height: 90px;
+}
+
+/* logo */
+#logo img {
+    width: 290px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+/* menu */
+#menu ul {
+    overflow: hidden;
+    padding: 0;
+    
+}
+
+.menu-item {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 18px;
+    list-style: none;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#nav .subnav li {
+    float: left;
+    padding: 0 15px;
+    list-style: none;
+}
+
+.subnav li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+}
+
+.menu-item i {
+    font-size: 18px;
+    color: #ffc107;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.menu-item > a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+}
+
+.subnav li:hover a,
+.menu-item:hover > a {
+    color: #ffc107;
+}
+
+/* search */
+#search button, #search input {
+    margin-top: 22px;
+    background: #24262b;
+}
+
+#search input {
+    padding: 20px;
+    font-size: 19px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+}
+
+#search button:hover,
+#search input:hover {
+    background: #333;
+}
+
+#search button {
+    padding: 13.5px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+#search button i {
+    color: #ffc107;
+}
+
+/* body */
+#body {
+    margin-top: 60px;
+    background: #222;
+}
+
+.products h2 {
+    padding: 40px 0 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffc107;
+}
+
+.products h2 i {
+    font-size: 15px;
+    color: #ffc107;
+}
+
+.product-list {
+    margin: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.product-item {
+
+}
+
+.product-item-inner {
+    background: #222;
+    border: none;
+}
+
+.product-item h3:hover,
+.product-item-inner:hover {
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.product-item img {
+    padding: 10px;
+    width: 100%;
+    height: 50%px;
+    border-radius: 18px;
+}
+
+.product-item img:hover {
+    opacity: 0.6;
+}
+
+.product-item a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.product-item h3 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-item p {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #757575;
+}
+/* pages */
+.pages {
+    margin-left: 30%;
+    padding-bottom: 20px;
+}
+
+.page-item a {
+    background: #444;
+    color: #fff;
+}
+
+.page-item a:hover {
+    background-color: #ffc107;
+    color: #000;
+    z-index: 0;
+}
+/* end pages */
+
+/* footer */
+#footer-t {
+    padding-top: 30px;
+    background-color: #000;
+}
+
+#footer-t h3 {
+    padding-bottom: 10px;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #ffc107;
+    border-bottom: 1px solid #ffc107;
+}
+
+#footer-t ul {
+    padding: 5px;
+    list-style: none;
+}
+
+#footer-t li {
+    padding: 5px 0;
+    margin: 0;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-bottom: 1px solid #444;
+}
+
+#footer-t li:hover a {
+    color: #ff5722;
+    cursor: pointer;
+}
+
+#footer-t li:hover {
+    cursor: pointer;
+}
+
+#footer-t a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#footer-t p {
+    padding-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* footer -b  */
+#footer-b {
+    border-top: 1px solid #333;
+    background: #000;
+}
+
+#footer-b p {
+    margin: 0;
+    padding: 28px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#footer-b a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+#footer-b a:hover {
+    color: #ff5722;
+    cursor: pointer;
+}
